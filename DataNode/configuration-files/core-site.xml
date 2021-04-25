@@ -1,0 +1,6 @@
+<configuration>
+<property>
+<name>dfs.default.name</name>
+<value>hdfs://ip_of_name_node:9001<value>
+</property>
+</configuration>
