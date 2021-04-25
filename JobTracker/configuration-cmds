@@ -1,3 +1,5 @@
 hadoop-daemon.sh start jobtracker
 jps
 netstat -tnlp
+echo "hadoop-daemon.sh start jobtracker" >> /etc/rc.d/rc.local
+chmod +x /etc/rc.d/rc.local

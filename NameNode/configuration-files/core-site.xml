@@ -1,6 +1,6 @@
 <configuration>
 <property>
-<name>dfs.default.name</name>
+<name>fs.default.name</name>
 <value>hdfs://0.0.0.0:9001<value>
 </property>
 </configuration>

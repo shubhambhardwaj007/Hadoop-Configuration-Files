@@ -1,3 +1,5 @@
 hadoop-daemon.sh start datanode
 jps
 netstat -tnlp
+echo "hadoop-daemon.sh start datanode" >> /etc/rc.d/rc.local
+chmod +x /etc/rc.d/rc.local

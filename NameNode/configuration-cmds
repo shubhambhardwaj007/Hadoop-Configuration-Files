@@ -1,3 +1,6 @@
 hadoop namenode -format
 hadoop-daemon.sh start namenode
 jps
+netstat -tnlp
+echo "hadoop-daemon.sh start namenode" >> /etc/rc.d/rc.local
+chmod +x /etc/rc.d/rc.local
