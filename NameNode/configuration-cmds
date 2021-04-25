@@ -1,0 +1,3 @@
+hadoop namenode -format
+hadoop-daemon.sh start namenode
+jps
