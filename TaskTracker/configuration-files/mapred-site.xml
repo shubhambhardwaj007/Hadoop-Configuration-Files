@@ -1,0 +1,6 @@
+<configuration>
+<property>
+<name>mapred.job.tracker</name>
+<value>ip_of_job_tracker:9002<value>
+</property>
+</configuration>
